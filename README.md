@@ -3,7 +3,9 @@ POC Data analysis challenge
 
 Run the main matching script on the sample data:
 
-python Matching_Script.py \
+python: Matching_Script.ipynb
+        Check duplicate IDs.ipynb  /-- flags any raw catalog conflicts (expected to be empty)
+        
   --input presales_data_sample.csv \
   --output presales_match_results.csv
 
@@ -19,7 +21,6 @@ Generate detailed context (triggered automatically):
 
 presales_duplicate_veridion_ids.csv  summarize duplicate mappings for audit
 
-raw_sample_duplicate_veridion_ids.csv: flags any raw catalog conflicts (expected to be empty)
 
 
 📊 Reports
