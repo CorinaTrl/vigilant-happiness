@@ -15,8 +15,6 @@ Normalize and fuzzy-match each supplier
 
 Apply country/region bonuses
 
-Export presales_entity_match_results.csv with one row per input_row_key
-
 Generate detailed context (triggered automatically):
 
 presales_duplicate_veridion_ids.csv  summarize duplicate mappings for audit
